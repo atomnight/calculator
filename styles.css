@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Garamond;
-    font-weight: bold;
 }
 
 html {
@@ -28,7 +27,7 @@ html {
 }
 
 .screen-container {
-    background-color: hotpink;
+    background-color: lime;
     margin-top: 1rem;
     border: 3px solid#8d92fc;
     width: 90%;
@@ -46,13 +45,15 @@ html {
 
 
 #output {
-    font-size: 2em;
+    font-size: 2.1em;
     color: white;
+    font-weight: 900;
 }
 
 #input {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: white;
+    font-weight: 900;
 }
 
 .main-row-container {
@@ -69,7 +70,7 @@ html {
     width: 3.5rem;
     height: 2rem;
     border-radius: 0.7rem;
-    font-size: 1.2em;
+    font-size: 1.4em;
     background-color: #8d92fc;
     color: white;
     border-color: white;
@@ -78,7 +79,8 @@ html {
 
 .main-button:hover {
     cursor: pointer;
-    background-color: hotpink;
+    background-color: lime;
+    font-weight: 900;
 }
 
 
